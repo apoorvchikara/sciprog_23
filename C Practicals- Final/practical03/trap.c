@@ -2,14 +2,14 @@
 #include<math.h>
 
 int main() {
-// Initialise the end points and number of points
+// Initialise the end and number of points
 
 int N = 12;
 double x_0 = 0.0;
 double x_12 = M_PI/3.0;
 double width = (x_12 - x_0)/(double)N;
 
-// Get valuesof f(x) - tan(x) for end-points and add them up
+// store values of the f(x) - tan(x) for end-points and sum them.
 double X = tan(x_0)+tan(x_12);
 
 // Get the equidistant points, evaluate tan at these points, store 2tan(x) at each case

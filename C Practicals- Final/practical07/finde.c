@@ -5,7 +5,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-int factorial(int n);
+int factorial(int n);   // Initialise the function to calculate the factorial of a number.
 
 int main(void){
     int i, order;
@@ -20,23 +20,28 @@ int main(void){
 
     // Allocate space depending on n
     terms = malloc(order*sizeof(double));
+
+    // Calculate and print the terms of the Taylor series
     for(i=0; i<order; i++){
         terms[i] = 1.0/(double)factorial(i+1);
         printf("e terms for order %d is %1.14lf \n", i+1, terms[i]);
     }
 
     e = 1.0;
+
+    // Sum up the terms of the Taylor series
     for(i=0; i<order; i++){
         e = e + terms[i];
     }
 
-    free(terms);
+    free(terms);     // Free the allocated memory.
 
     printf("e is estimated as %.10lf, with difference %e\n", e, e-exp(1.0));
 
     return 0;
 }
 
+// Recursive function to calculate the factorial of a number
 int factorial(int n){
     if(n<0){
         printf("Error: Negative number passed to factorial.\n");

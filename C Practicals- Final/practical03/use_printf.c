@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main() {
+    // initialise the int and float variables with initial values
 int i1 = 10;
 int i2 = 200;
 float fl1 = 1.11;

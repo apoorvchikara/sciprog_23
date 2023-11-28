@@ -6,7 +6,7 @@ double arctanh2(const double x);
 
 int main() {
     double delta, x;
-
+    // Get the precision for the Maclaurin Series from the user
     printf("Enter the precision for the Maclaurin Series: \n");
     scanf("%lf", &delta);
 
@@ -16,6 +16,7 @@ int main() {
 
     int j=0;
     x=-0.9;
+    // Calculate arctanh using both methods for different values of x
     while(x<=0.9 && j<length){
         tan1[j] = arctanh1(x, delta);
         tan2[j] = arctanh2(x);
@@ -26,7 +27,7 @@ int main() {
 
     return 0;
 }
-
+// Maclaurin Series expansion for arctanh
 double arctanh1(const double x, const double delta){
     double arcTan=0;
     double elem, val;
@@ -41,7 +42,7 @@ double arctanh1(const double x, const double delta){
 
     return arcTan;
 }
-
+// Direct formula for arctanh
 double arctanh2(const double x){
     return (log(1+x) - log(1-x))/2;
 }

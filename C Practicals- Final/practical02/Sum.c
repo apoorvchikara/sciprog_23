@@ -2,19 +2,19 @@
 
 
 int main(void) {
-/* Declare variables */
+/* Initialise variables */
    int i;
    float sum1, sum2, diff;
    
 
-/* First sum */
+// Sum1
    sum1 = 0.0;
    for (i=1; i<=1000; i++) {
       sum1 += 1.0 / i;
    }
 
 
-/* Second sum */
+// Sum2
    sum2 = 0.0;
    for (i=1000; i>0; i--) {
       sum2 += 1.0 / i;
