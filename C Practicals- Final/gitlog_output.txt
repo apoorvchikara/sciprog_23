@@ -1,0 +1,77 @@
+commit 43a96cbc4837af1610fc8ccc8d057e1998b65733
+Author: apoorvchikara <apoorv.chikara16@gmail.com>
+Date:   Tue Nov 28 16:05:47 2023 +0000
+
+    added updates
+
+commit 56d448bf5bc8bf33dbfc170373197a00481ba2d7
+Author: apoorvchikara <apoorv.chikara16@gmail.com>
+Date:   Tue Nov 28 16:05:11 2023 +0000
+
+    added updates
+
+commit c0713d692c79ee78193fad6303c6d3d742ab4b2e
+Author: apoorvchikara <apoorv.chikara16@gmail.com>
+Date:   Tue Nov 28 16:00:19 2023 +0000
+
+    added week 09
+
+commit 45027575e62411a1973edc9d10e3ec23d33f6d72
+Author: apoorvchikara <apoorv.chikara16@gmail.com>
+Date:   Tue Nov 28 01:47:34 2023 +0000
+
+    Added practical week08
+
+commit 15975f0b62146773a4e431a38849df66b4d1c5a2
+Author: apoorvchikara <apoorv.chikara16@gmail.com>
+Date:   Sun Nov 19 19:12:28 2023 +0000
+
+    added project folder to repo
+
+commit 4692ab067f0770b5b6dfe670a77980159c9a4599
+Author: Buket Benek Gursoy <buket.gursoy@ichec.ie>
+Date:   Fri Sep 29 09:12:05 2023 +0100
+
+    Update README.md
+
+commit cd1f3539715bb7505a462bca3747943b77a36bab
+Author: Buket Benek Gursoy <buket.gursoy@ichec.ie>
+Date:   Thu Sep 28 15:55:04 2023 +0100
+
+    Update README.md
+
+commit fb2f93729881b2f90f310fc663cc6efd1073017b
+Author: Buket Benek Gursoy <buket.gursoy@ichec.ie>
+Date:   Thu Sep 28 15:54:24 2023 +0100
+
+    Update README.md
+
+commit f7edcd0c9b27b4274913af43d7b53b379b0ed4de
+Author: Buket Benek Gursoy <buket.gursoy@ichec.ie>
+Date:   Thu Sep 28 14:51:49 2023 +0100
+
+    Update README.md
+
+commit 26f18819fe128ba33aac685c327ab3769f7f1efe
+Author: Buket Benek Gursoy <buket.gursoy@ichec.ie>
+Date:   Thu Sep 28 13:45:54 2023 +0100
+
+    Update README.md
+
+commit 28f1724422f6823ce758640815d12816bd7a92f1
+Author: Buket Benek Gursoy <buket.gursoy@ichec.ie>
+Date:   Thu Sep 28 13:42:38 2023 +0100
+
+    Update README.md
+
+commit 12c68e1b6ee16ac5c4fe31c683f42e900b93d64e
+Author: Buket Benek Gursoy <buket.gursoy@ichec.ie>
+Date:   Thu Sep 28 13:41:56 2023 +0100
+
+    Update README.md
+
+commit 25cbd308e636fcc641d18f37f3d0dc139d953832
+Author: Buket Benek Gursoy <buket.gursoy@ichec.ie>
+Date:   Wed Sep 27 14:11:53 2023 +0100
+
+    Initial commit
